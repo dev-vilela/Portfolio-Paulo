@@ -186,3 +186,69 @@ h3{
     transform: scale(1.2);
    background-color:#230331;
 }
+
+/*--------Formatação Sobre Mim-------------*/
+.background-sobre{
+    background-color: #191919d7;
+    width: 100%;
+    padding: 100px 0;
+    border-bottom: 1px solid #00000063;
+}
+
+.background-sobre img{
+    width: 420px;
+    height: auto;
+    background-color: #3637866b;
+    border-radius: 10%;
+}
+
+.texto-sobre{
+    width: 550px;
+}
+
+.Main-sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1130px;
+    margin: 0 auto;
+}
+
+.texto-sobre h2{
+    color: #fff;
+    font-size: 77px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+/*
+EXEMPLOS 
+#sub{
+    color: #1c0166;
+    background-image: linear-gradient(to top, #2a226e, #845d559f);
+} */
+
+.texto-sobre h5{
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.texto-sobre p{
+    color: rgba(231, 232, 235, 0.822);
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-indent: 25px;
+}
+
+/*--------FIM Sobre Mim-------------*/
+
+
+
+/*--------------- TESTE---------------*/
+
+  
