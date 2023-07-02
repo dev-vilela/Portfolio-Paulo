@@ -9,6 +9,7 @@
     background-image: url('../img/background2.png');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 100vh;
     width: 100%;
 }
@@ -108,12 +109,12 @@ h3{
 }
 */
 /*-----------Animação do H3--------------*/
-.container{
+.containerh2{
     display: inline-flex;
     margin-bottom: 60px;
 }
 
-.container .estatico{
+.containerh2 .estatico{
     color: #b3dbd9;
     font-size: 26px;
     letter-spacing: 2px;
@@ -189,10 +190,11 @@ h3{
 
 /*--------Formatação Sobre Mim-------------*/
 .background-sobre{
-    background-color: #191919d7;
+    background-image: linear-gradient(to top, #2a226e, #845d559f);
+    background-attachment: fixed;
     width: 100%;
     padding: 100px 0;
-    border-bottom: 1px solid #00000063;
+    border-bottom: 1px solid #000000bb;
 }
 
 .background-sobre img{
@@ -221,6 +223,10 @@ h3{
     letter-spacing: 3px;
     margin-bottom: 20px;
 }
+
+#sub{
+    color: #1c0166;
+}
 /*
 EXEMPLOS 
 #sub{
@@ -248,7 +254,126 @@ EXEMPLOS
 /*--------FIM Sobre Mim-------------*/
 
 
+/*--------HABILIDADES-------------*/
+.container-skill{
+    background-image: linear-gradient(to bottom, #1b1646, #312522b0);
+    width: 100%;
+    padding: 100px 0;
+}
 
-/*--------------- TESTE---------------*/
+.title h2{
+    color: #fff;
+    font-size: 70px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
 
+.caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    flex-wrap: wrap;
+}
+
+.card{
+   /* background-color: #343e58; */
+   border: 2px solid #000000;
+    height: 360px;
+    width: 360px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card:hover{
+    background-image: linear-gradient(to right, rgba(49, 49, 77, 0.867), rgba(81, 125, 151, 0.623));
+}
+
+.card img{
+    padding-top:20px ;
+    width: 65px;
+    margin: 25px 0;
+}
+
+.card h5{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.card p{
+    color: #fae4fae0;
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+.SKILL{
+    font-size: 20px;
+    color: #b3dbd9;
+}
+
+
+
+/*--------FORMAÇÕES-------------*/
+.resume{
+    background-image: linear-gradient(to bottom, #1b1646, #312522b0);
+    width: 100%;
+    padding: 100px 0;
+}
+
+
+ .section-title h2 {
+    color: #fff;
+    font-size: 70px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+  }
   
+  .resume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #7df95e;
+    position: relative;
+    margin-left: 120px;
+  }
+  
+  .resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+    margin-bottom: 10px;
+  }
+  
+  .resume .resume-item h5 {
+    font-size: 16px;
+    background: #e4edf9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #1f5297;
+  }
+  
+  /*-----------FORMAÇÕES---------------*/
