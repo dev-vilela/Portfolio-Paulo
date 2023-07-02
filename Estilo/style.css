@@ -167,7 +167,6 @@ h3{
 
 .btn{
     background-color: #f9004d;
-    
     text-align: center;
     border: 2px solid transparent;
     font-weight: bold;
@@ -185,7 +184,8 @@ h3{
 
 .btn:hover{
     transform: scale(1.2);
-   background-color:#230331;
+    background-color:#230331;
+    letter-spacing: 10px;
 }
 
 /*--------Formatação Sobre Mim-------------*/
@@ -200,7 +200,7 @@ h3{
 .background-sobre img{
     width: 420px;
     height: auto;
-    background-color: #3637866b;
+    background-image: linear-gradient(to top, #413131, #5f52ce);
     border-radius: 10%;
 }
 
@@ -254,7 +254,7 @@ EXEMPLOS
 /*--------FIM Sobre Mim-------------*/
 
 
-/*--------HABILIDADES-------------*/
+/*-----------HABILIDADES---------------*/
 .container-skill{
     background-image: linear-gradient(to bottom, #1b1646, #312522b0);
     width: 100%;
@@ -336,11 +336,21 @@ EXEMPLOS
     margin: 30px auto;
     text-align: center;
   }
+
+  .section-title p{
+    color: rgba(231, 232, 235, 0.822);
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    text-align: left;
+    text-indent: 25px;
+  }
   
   .resume .resume-item {
     padding: 0 0 20px 20px;
     margin-top: -2px;
-    border-left: 2px solid #7df95e;
+    border-left: 2px solid #418530;
     position: relative;
     margin-left: 120px;
   }
@@ -348,21 +358,18 @@ EXEMPLOS
   .resume .resume-item h4 {
     line-height: 18px;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
-    color: #050d18;
+    color: #cacaca;
     margin-bottom: 10px;
   }
   
-  .resume .resume-item h5 {
+.resume-item ul li, em{
+    color: #ffefc3;
     font-size: 16px;
-    background: #e4edf9;
-    padding: 5px 15px;
-    display: inline-block;
-    font-weight: 600;
-    margin-bottom: 10px;
-  }
+    letter-spacing: 2px;
+}
   
   .resume .resume-item::before {
     content: "";
@@ -372,8 +379,140 @@ EXEMPLOS
     border-radius: 50px;
     left: -9px;
     top: 0;
-    background: #fff;
-    border: 2px solid #1f5297;
+    background: rgb(230, 230, 230);
+    border: 2px solid #1f9773;
   }
   
-  /*-----------FORMAÇÕES---------------*/
+  /*-----------FIMM FORMAÇÕES---------------*/
+
+
+  /*--------PROJETOS--------*/
+#projetos {
+    background-image: linear-gradient(to bottom, #1b1646, #251c1abb);
+}
+
+.project{
+    color: #fff;
+    font-size: 70px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center; 
+}
+
+.portfolio {
+    background-image: url('../img/portfolio.png');
+    background-size: cover;
+    
+}
+
+.god{
+    background-image: url('../img/projeto-god-of-war.png');
+    background-size: cover;
+}
+
+.super{
+    background-image: url('../img/projeto-super-mario.png');
+    background-size: cover;
+}
+
+.projetos {
+    padding-top: 9px;
+}
+
+.projetos h2, .projetos a {
+    text-align: center;
+}
+
+.projetos h2 {
+    padding-bottom: 70px;
+}
+
+
+.github-link {
+    margin: 0 auto;
+    padding-top: 95px;
+    padding-bottom: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.github-link a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    background-color: #bb0f0f;
+    width: 290px;
+    padding: 10px;
+    border-radius: 20px;
+    transition: transform 2.4s;
+}
+
+.github-link a:hover{
+    background-color: #1b1646;
+    transform: scale(1.2);
+}
+
+.projetos a {
+    display: inline;
+}
+
+.pro {
+    background-color: #C4C4C4;
+    height: 230px;
+    width: 420px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: ease-in-out 0.3s;
+}
+
+
+
+.pro div {
+    background-color: #705656;
+    width: 1000px;
+    text-align: center;
+    padding: 5% 0;
+    transform: rotate(-50deg);
+}
+
+
+
+.projetos-itens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29.5px;
+    width: 100%;
+    justify-content: center;
+}
+
+@media (max-width:1200px) {
+  .projetos{
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+  }
+
+  #projetos {
+      display: flex;
+      justify-content: center;
+  }
+
+  .projetos-itens {
+      flex-direction: column;
+  }
+
+}
+@media (max-width:950px) {
+    .pro {
+        max-width: 300px;
+    }
+
+}
