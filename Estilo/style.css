@@ -5,6 +5,10 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
+body{
+    background-color: #000000;
+}
+
 .background{
     background-image: url('../img/background2.png');
     background-size: cover;
@@ -324,8 +328,10 @@ EXEMPLOS
 /*--------FORMAÇÕES-------------*/
 .resume{
     background-image: linear-gradient(to bottom, #1b1646, #312522b0);
+    background-attachment: fixed;
     width: 100%;
     padding: 100px 0;
+    border-bottom: 1px solid #0000009a;
 }
 
 
@@ -389,6 +395,7 @@ EXEMPLOS
   /*--------PROJETOS--------*/
 #projetos {
     background-image: linear-gradient(to bottom, #1b1646, #251c1abb);
+    
 }
 
 .project{
@@ -492,27 +499,70 @@ EXEMPLOS
     width: 100%;
     justify-content: center;
 }
+ /*-------FIM-PROJETOS--------*/
 
-@media (max-width:1200px) {
-  .projetos{
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-  }
 
-  #projetos {
-      display: flex;
-      justify-content: center;
-  }
 
-  .projetos-itens {
-      flex-direction: column;
-  }
+/*------------FOOTER------------*/
 
+
+footer{
+    background-image: linear-gradient(to bottom left, #1b1646, #251c1abb);
+    width: 100%;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-@media (max-width:950px) {
-    .pro {
-        max-width: 300px;
-    }
 
+footer p{
+    font-size: 19px;
+    color: #fff;
+    text-align: center;
+
+    margin-top: 10px;
+    margin-bottom: 15px;
+    line-height: 15px;
+    letter-spacing: 1px;
 }
+
+.footer-p{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.redes-sociais{
+    display: flex;
+}
+
+.redes-sociais  a{
+    width: 45px;
+    height: 45px;
+    padding: 15px;
+    margin: 22px 10px ;
+}
+
+.icon a{
+    color: #fff;
+    
+}
+
+/*-----------FIM-FOOTER------------*/
+
+/*-----------BOTÃO------------*/
+.gotopbtn {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #bd2828;
+    border-radius: 50%;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 22px;
+}
+/*-----------FIM-BOTÃO------------*/
