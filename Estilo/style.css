@@ -208,6 +208,61 @@ h3{
     border-radius: 10%;
 }
 
+/*----------MENU-RESPONSIVO------------*/
+aside{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    overflow: hidden;
+    
+}
+
+.icon-menu .menu{
+    font-size: 33px;
+    color: #fff;
+    margin-top: 15px;
+    margin-right: 15px;
+    display: none;
+}
+
+#barra-menu{
+    background-color: #191919;
+    height: 100vh;
+    width: 0px;
+    transition: 0.3s all;
+}
+
+#barra-menu ul li{
+    list-style: none;
+    padding: 15px;
+}
+
+#barra-menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    width: 100%;
+}
+
+#barra-menu ul li a:hover{
+    border: 1px solid #101010;
+    border-radius: 20px;
+    background-color: #858585;
+    padding: 10px;
+}
+
+.C-icon{
+    margin-top: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+    overflow: hidden;
+}
+
+/*---------FIM-MENU-RESPONSIVO------------*/
+
 .texto-sobre{
     width: 550px;
 }
@@ -566,3 +621,34 @@ footer p{
     font-size: 22px;
 }
 /*-----------FIM-BOTÃO------------*/
+
+/*-----------RESPONSIVIDADE------------*/
+
+@media screen and (max-width:375px){
+    .icon-menu .menu{
+        display: block;
+    }
+
+    #barra-menu{
+        height: 100vh;
+        z-index: 1;
+    }
+
+    .C-icon {
+        background-color: #f9004d;
+        color: #fff;
+        text-transform: none;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 10px 5px;
+        border-radius: 30px;
+        width: 150px;
+        margin-left: 15px;
+    }
+
+    Main h1, .estatico h3{
+        font-size: 20px;
+    }
+}
+
+/*---------FIMM--RESPONSIVIDADE------------*/
