@@ -4,7 +4,7 @@
 <p>Falta realizar a parte da responsividade ainda.</p>
 
 <br>
-Link para vizualizar projeto: <a href="#">Acessar portfólio</a>
+Link para vizualizar projeto: <a href="https://dev-vilela.github.io/Portfolio-Paulo/" >Acessar portfólio</a>
 <br>
 <br>
 <h5>Página principal - Home</h5>
