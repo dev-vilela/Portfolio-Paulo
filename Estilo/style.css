@@ -215,7 +215,7 @@ aside{
     right: 0;
     display: flex;
     overflow: hidden;
-    
+   
 }
 
 .icon-menu .menu{
@@ -450,7 +450,7 @@ EXEMPLOS
   /*--------PROJETOS--------*/
 #projetos {
     background-image: linear-gradient(to bottom, #1b1646, #251c1abb);
-    
+    padding: 100px 0;
 }
 
 .project{
@@ -624,7 +624,7 @@ footer p{
 
 /*-----------RESPONSIVIDADE------------*/
 
-@media screen and (max-width:375px){
+@media  (max-width:375px){
     .icon-menu .menu{
         display: block;
     }
@@ -646,8 +646,33 @@ footer p{
         margin-left: 15px;
     }
 
-    Main h1, .estatico h3{
+    .Main h1, .estatico h3, .dinamico li{
         font-size: 20px;
+    }
+
+    .btn a{
+        width: 150px;
+        max-width: 100%;
+        position: relative;
+        margin-left: -2px;
+    }
+
+ 
+
+    .background-sobre{
+        align-items: center;
+        text-align: center;
+    }
+
+    .Main-sobre img{
+        width: 280px;
+        height: auto;
+        border-radius: 10px;
+        margin-left: -180px;
+    }
+
+    .texto-sobre h2{
+        margin-left: -180px;
     }
 }
 
