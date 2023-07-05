@@ -1,7 +1,7 @@
 <h4>Projeto desenvolvido com HTML5 e CSS#</h4>
 <p>Portfólio criado com objetivo de mostrar um poucosobre mim, minhas formações, cursos e habilidades.</p>
 <br>
-Link para vizualizar projeto: <a href="#">Acessar portfólio</a>
+Link para vizualizar projeto: <a href="https://dev-vilela.github.io/Portfolio-Paulo/"  >Acessar portfólio</a>
 <br>
 <br>
 <h5>Página principal - Home</h5>
