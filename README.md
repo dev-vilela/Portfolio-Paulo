@@ -1,5 +1,5 @@
 <h4>Projeto desenvolvido com HTML5 e CSS#</h4>
-<p>Portfólio criado com objetivo de mostrar um poucosobre mim, minhas formações, cursos e habilidades.</p>
+<p>Portfólio criado com objetivo de mostrar um pouco sobre mim, minhas formações, cursos e habilidades.</p>
 
 <p>Falta realizar a parte da responsividade ainda.</p>
 
