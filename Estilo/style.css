@@ -206,6 +206,12 @@ h3{
     height: auto;
     background-image: linear-gradient(to top, #413131, #5f52ce);
     border-radius: 10%;
+    transition: all .55s ease;
+}
+
+.background-sobre img:hover{
+    transform: translateY(-10px);
+    -webkit-transform: scale(1.2);
 }
 
 /*----------MENU-RESPONSIVO------------*/
@@ -459,23 +465,43 @@ EXEMPLOS
     width: 1130px;
     margin: 30px auto;
     text-align: center; 
-}
+} 
 
-.portfolio {
-    background-image: url('../img/portfolio.png');
-    background-size: cover;
-    
-}
 
 .god{
     background-image: url('../img/projeto-god-of-war.png');
     background-size: cover;
+    transition: all .55s ease;
 }
+
+.god:hover{
+    transform: translateY(-10px);
+    -webkit-transform: scale(1.1);
+}
+
+.outlet {
+    background-image: url('../img/pag1.png');
+    background-size: cover;
+    transition: all .55s ease;
+}
+
+.outlet:hover{
+    transform: translateY(-10px);
+    -webkit-transform: scale(1.4);
+}
+
 
 .super{
     background-image: url('../img/projeto-super-mario.png');
     background-size: cover;
+    transition: all .55s ease;
 }
+
+.super:hover{
+    transform: translateY(-10px);
+    -webkit-transform: scale(1.1);
+}
+
 
 .projetos {
     padding-top: 9px;
