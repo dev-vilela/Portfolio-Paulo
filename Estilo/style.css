@@ -491,13 +491,13 @@ EXEMPLOS
 }
 
 
-.super{
-    background-image: url('../img/projeto-super-mario.png');
+.stranger{
+    background-image: url('../img/Stranger-Things.png');
     background-size: cover;
     transition: all .55s ease;
 }
 
-.super:hover{
+.stranger:hover{
     transform: translateY(-10px);
     -webkit-transform: scale(1.1);
 }
